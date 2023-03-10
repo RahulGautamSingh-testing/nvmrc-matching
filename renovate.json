@@ -1,0 +1,11 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": [".nvmrc"],
+      "matchStrings": [
+        "^(?<currentValue>.*)$"
+      ],
+      "autoReplaceStringTemplate": "{{{newValue}}}"
+    }
+  ]
+}
