@@ -5,6 +5,8 @@
       "matchStrings": [
         "^(?<currentValue>.*)$"
       ],
+      "depNameTemplate": "docker",
+      "datasourceTemplate": "docker",
       "autoReplaceStringTemplate": "{{{newValue}}}"
     }
   ]
